@@ -1,0 +1,44 @@
+# dirs
+alias ..='cd ../'
+alias ...='cd ../../'
+alias cdg='cd ~/Work/git/'
+alias cdnv='cd ~/.config/nvim/'
+
+# dot files
+alias vi='nvim'
+alias vib='vi ~/.zshrc'
+alias via='vi ~/.aliases'
+alias srb='source ~/.zshrc'
+alias sra='source ~/.aliases'
+
+# linux commands
+alias g='grep'
+alias l='ls -larth'
+alias q='QHOME=~/q rlwrap -r ~/q/m64/q'
+alias ll='l'
+alias py='python3'
+alias kpp='kill -9 %1'
+
+# git
+alias gt='git tag'
+alias gg='git grep'
+alias gp='git pull'
+alias gc='git clone'
+alias gf='git fetch'
+alias gb='git branch'
+alias gr='git rebase'
+alias gd='git diff'
+alias gs='git status'
+alias gpf='git push -f'
+alias gco='git checkout'
+alias gac='git commit -am'
+alias gra='git rebase --abort'
+alias grc='git rebase --continue'
+alias gcn='git commit --ammend --no-edit'
+alias gcob='git checkout -b'
+alias gcom='git checkout master'
+alias gsrst='git reset --soft'
+alias ghrst='git reset --hard'
+
+# etc.
+alias claude='~/.local/bin/claude'
